@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+body {
+  background-image: url(/images/BG.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-family: arial sans serif;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.atas {
+  display: flex;
+}
+
+.atas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.atas ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.atas ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.introduce {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.who {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 24px;
+  color: white;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.interest {
+  font-size: 24px;
+  color: white;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.item {
+  font-size: 24px;
+  color: white;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+}
